@@ -1,0 +1,4 @@
+din = float(input("Digite o preço do produto:R$"))
+desconto = din*5/100
+
+print("O produto que custava {}, na promoção com desconto de 5% vai custar R${} ".format(din, desconto))
