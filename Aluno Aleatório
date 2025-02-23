@@ -1,0 +1,8 @@
+import random
+ pri = input("Primeiro aluno: ")
+ seg = input("Segundo aluno: ")
+ ter = input("Terceiro aluno: ")
+ qua = input("Quarto aluno: ")
+ opções = (pri,seg,ter,qua)
+ escolha = random.choice(opções)
+ print("O aluno escolhido foi {}".format(escolha))
