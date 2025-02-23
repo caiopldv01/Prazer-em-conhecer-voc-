@@ -1,0 +1,13 @@
+msg = int(input("Digite um numero: "))
+
+d = msg * 2
+
+t = msg * 3
+
+print("O dobro de {} é {}".format(msg,d))
+
+print("O triplo de {} é {}".format(msg, t))
+
+rq = msg ** 0.5
+
+print("A raiz quadrada de {} é {}.".format(msg, rq)
